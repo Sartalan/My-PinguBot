@@ -2339,7 +2339,7 @@
 		)
 		(uuid "c6461ebc-1ae6-4abb-8576-8292b4169897")
 	)
-	(text "zweiter Stromkreis\n"
+	(text "Second Circuit\n"
 		(exclude_from_sim no)
 		(at 103.124 40.386 0)
 		(effects
