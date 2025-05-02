@@ -27282,7 +27282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 117.602 59.69 90)
 			(effects
 				(font
@@ -27350,7 +27350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OptoDevice:Vishay_MOLD-3Pin"
+		(property "Footprint" "EESTN5:BORNERA3"
 			(at 186.69 268.605 0)
 			(effects
 				(font
@@ -27487,7 +27487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 219.71 255.778 90)
 			(effects
 				(font
