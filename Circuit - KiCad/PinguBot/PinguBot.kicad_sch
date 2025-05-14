@@ -4092,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 85.09) (xy 370.84 85.09)
+			(xy 358.14 85.09) (xy 381 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4432,13 +4432,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 254) (xy 101.6 254)
+			(xy 381 68.58) (xy 381 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70ea15e7-5353-4ec2-805b-73af9fa328d4")
+		(uuid "73743e7d-5541-4be2-87ac-947ce5083625")
 	)
 	(wire
 		(pts
@@ -4552,16 +4552,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 64.77) (xy 370.84 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d208627-c58d-4d46-a2a7-355fe850e1fd")
-	)
-	(wire
-		(pts
 			(xy 119.38 50.8) (xy 119.38 55.88)
 		)
 		(stroke
@@ -4569,16 +4559,6 @@
 			(type default)
 		)
 		(uuid "9e65bce8-7d73-4397-8c18-f0e5ceec894c")
-	)
-	(wire
-		(pts
-			(xy 96.52 256.54) (xy 101.6 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e31ca1-35b8-4d96-adfb-ffc5b8d7b0d7")
 	)
 	(wire
 		(pts
@@ -4662,6 +4642,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 85.09) (xy 381 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3bcb06-6295-40ee-b412-92a070315e7e")
+	)
+	(wire
+		(pts
 			(xy 237.49 143.51) (xy 229.87 143.51)
 		)
 		(stroke
@@ -4669,16 +4659,6 @@
 			(type default)
 		)
 		(uuid "c1b78f15-951d-4478-9170-c8420918b68f")
-	)
-	(wire
-		(pts
-			(xy 370.84 85.09) (xy 370.84 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c288576f-8311-4c72-ae26-e5c8b9a57d64")
 	)
 	(wire
 		(pts
@@ -4822,13 +4802,33 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 58.42) (xy 368.3 58.42)
+			(xy 97.79 256.54) (xy 101.6 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47c7a2d-8bf7-4143-8b2a-fcc3a8e8db7f")
+	)
+	(wire
+		(pts
+			(xy 368.3 58.42) (xy 381 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4ae73c5-d49b-4b69-bbba-ae5bd18b3ec6")
+	)
+	(wire
+		(pts
+			(xy 97.79 254) (xy 101.6 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55d248e-74bd-4754-a2d3-d2a4802f00ce")
 	)
 	(wire
 		(pts
@@ -25132,7 +25132,7 @@
 	)
 	(global_label "SDA_DISPLAY"
 		(shape input)
-		(at 101.6 270.51 180)
+		(at 101.6 267.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25142,7 +25142,7 @@
 		)
 		(uuid "29283218-4c9d-4f77-9963-caa774d3b3c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.5195 270.51 0)
+			(at 86.5195 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25308,7 +25308,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 96.52 256.54 180)
+		(at 97.79 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25318,7 +25318,7 @@
 		)
 		(uuid "50923a0e-3dc7-450b-9b1c-cc67b358a3d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6643 256.54 0)
+			(at 90.9343 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25594,7 +25594,7 @@
 	)
 	(global_label "SCL_DISPLAY"
 		(shape input)
-		(at 101.6 267.97 180)
+		(at 101.6 270.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25604,7 +25604,7 @@
 		)
 		(uuid "88db59f0-e9de-4199-9465-e4df53bb7302")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.58 267.97 0)
+			(at 86.58 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26078,7 +26078,7 @@
 	)
 	(global_label "Microphone ADC"
 		(shape input)
-		(at 96.52 254 180)
+		(at 97.79 256.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26088,7 +26088,7 @@
 		)
 		(uuid "e5d0272f-80a0-4812-9ec1-81c381bc8838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.174 254 0)
+			(at 79.444 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26663,7 +26663,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 375.92 64.77 0)
+		(at 375.92 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26671,7 +26671,7 @@
 		(dnp no)
 		(uuid "55e9cb5f-9c44-4228-ba82-9ed02b50b606")
 		(property "Reference" "Speaker1"
-			(at 379.222 64.77 0)
+			(at 372.618 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,7 +26680,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 378.46 67.3099 0)
+			(at 373.38 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26690,7 +26690,7 @@
 			)
 		)
 		(property "Footprint" "EESTN5:BORNERA2"
-			(at 375.92 64.77 0)
+			(at 375.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26699,7 +26699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 64.77 0)
+			(at 375.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26708,7 +26708,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 375.92 64.77 0)
+			(at 375.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26758,7 +26758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 340.868 73.66 90)
 			(effects
 				(font
